@@ -1,4 +1,8 @@
 import '../styles/homepage.css';
+//import Amanda from '../assets/Amanda.svg'
+//import Amanda from '../assets/Component1.svg'
+
+
 
 const HomePage = () => {
   return (
