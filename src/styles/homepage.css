@@ -1,0 +1,17 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: Menlo;
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: 0em;
+    text-align: left;
+}
