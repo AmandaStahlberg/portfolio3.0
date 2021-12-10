@@ -1,0 +1,36 @@
+.menu {
+  position: fixed;
+  top: -2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  transition: top 300ms;
+  font-family: Menlo;
+  font-weight: 100;
+  padding-bottom: 1rem;
+  padding-top: .5rem;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: white;
+}
+.menu > a:hover {
+  color: #CF8B7A;
+}
+
+.menu:hover {
+  top: 0;
+}
+
+.menuArrow {
+    padding-top: 3.2rem;
+}
+
+.emptyBox {
+  width: 20rem;
+}

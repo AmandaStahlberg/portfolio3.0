@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    background-color: black;
+    color: white;
+    width: 100%;
+}

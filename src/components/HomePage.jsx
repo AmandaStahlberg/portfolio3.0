@@ -1,6 +1,7 @@
 import '../styles/homepage.css';
 import {
   SlidingFromLeftAnimation,
+  SlidingFromLeftAnimation2,
   SlidingFromRightAnimation,
 } from './animations';
 //import Amanda from '../assets/Amanda.svg'
@@ -10,18 +11,15 @@ const HomePage = () => {
   return (
     <div className="Home">
       <div>
-        <h1></h1>
-        <h1>AS</h1>
-        <h1></h1>
         <SlidingFromLeftAnimation>
           <h1>AMAND</h1>
         </SlidingFromLeftAnimation>
         <SlidingFromRightAnimation>
           <h1>ASTÅH</h1>
         </SlidingFromRightAnimation>
-        <SlidingFromLeftAnimation>
+        <SlidingFromLeftAnimation2>
           <h1>LBERG</h1>
-        </SlidingFromLeftAnimation>
+        </SlidingFromLeftAnimation2>
       </div>
     </div>
   );
