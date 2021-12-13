@@ -39,12 +39,6 @@ h2 {
     }
   }
 
-@media screen and (min-width: 1440px) {
-    .slidingHeading {
-        font-size: 200px;
-        line-height: 1;
-    }
-  }
 @media screen and (min-width: 2560px) {
     .slidingHeading {
         font-size: 400px;
