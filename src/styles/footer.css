@@ -4,7 +4,7 @@
     /* background-color: black; */
     color: #CF8B7A;
     width: 100%;
-    padding: .1rem 7.5rem;
+    padding: .1rem 7.5rem .1rem 0;
     font-family: Menlo;
     font-weight: 100;
     position:fixed;
