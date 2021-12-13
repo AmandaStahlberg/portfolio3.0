@@ -1,7 +1,6 @@
 .footer {
     display: flex;
     flex-direction: row-reverse;
-    /* background-color: black; */
     color: #CF8B7A;
     width: 100%;
     padding: .1rem 7.5rem .1rem 0;
@@ -11,6 +10,12 @@
     bottom: 0;
 }
 
+@media screen and (max-width: 425px) {
+    .footer {
+      flex-direction: row;
+      padding-left: 1rem;
+    }
+  }
 @media screen and (min-width: 1440px) {
     .footer {
       padding-right: 10rem;

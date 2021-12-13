@@ -17,11 +17,16 @@ h1 {
     line-height: 140px;
     letter-spacing: 0em;
     text-align: left;
+    color:black;
 } 
+.slidingHeading {
+    color: white;
+}
 
 h2 {
     font-family: Menlo;
     font-weight: 100; 
+    color: black;
 }
 
 @media screen and (max-width: 500px) {

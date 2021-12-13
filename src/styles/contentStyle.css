@@ -26,11 +26,7 @@
     }
 
   }
-  @media screen and (min-width: 1440px) {
-    .about {
-      padding-left: 20rem;
-    }
-  }
+
   @media screen and (min-width: 2560px) {
     .about {
       padding-left: 40rem;
