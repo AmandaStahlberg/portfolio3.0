@@ -10,7 +10,7 @@ const Skills = () => {
             <h2>JavaScript</h2>
             <h2>React.js</h2>
             <h2>TypeScript</h2>
-            <h2>figma</h2>
+            <h2>Figma</h2>
         </div>
     )
 }
