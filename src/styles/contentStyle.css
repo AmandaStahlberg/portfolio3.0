@@ -21,4 +21,7 @@
     .textStyle {
         font-size: 4rem;
     }
+    .about > h1 {
+        line-height: 1;
+    }
   }
