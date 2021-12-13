@@ -1,10 +1,9 @@
-import '../styles/about.css'
-import '../styles/contact.css'
+import '../styles/contentStyle.css'
 
 const Contact = () => {
   return (
     <div className="about">
-      <h1 className="contactMe">contact me</h1>
+      <h1 className="textStyle">contact me</h1>
       <a href="mailto:stahlberg.amanda@hotmail.com">
         <h2>stahlberg.amanda@hotmail.com</h2>
       </a>

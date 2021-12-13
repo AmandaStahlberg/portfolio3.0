@@ -16,3 +16,9 @@
     cursor: pointer;
     color: #CF8B7A;
 }
+
+@media screen and (max-width: 604px) {
+    .textStyle {
+        font-size: 4rem;
+    }
+  }

@@ -1,8 +1,9 @@
+import '../styles/contentStyle.css'
 
 const Skills = () => {
     return (
         <div className="about">
-            <h1>skills</h1>
+            <h1 className="textStyle">skills</h1>
             <h2>HTML</h2>
             <h2>CSS</h2>
             <h2>SASS</h2>
