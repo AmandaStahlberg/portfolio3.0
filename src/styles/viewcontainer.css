@@ -14,7 +14,6 @@
   right: 0;
   top: 0;
   max-height: 100%;
-  width: 27rem;
   object-fit: cover;
 }
 
@@ -23,3 +22,4 @@
     opacity: 0.5;
   }
 }
+

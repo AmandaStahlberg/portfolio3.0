@@ -11,13 +11,13 @@ const HomePage = () => {
   return (
     <div className="Home">
         <SlidingFromLeftAnimation>
-          <h1>AMAND</h1>
+          <h1 className="slidingHeading">AMAND</h1>
         </SlidingFromLeftAnimation>
         <SlidingFromRightAnimation>
-          <h1>ASTÅH</h1>
+          <h1 className="slidingHeading">ASTÅH</h1>
         </SlidingFromRightAnimation>
         <SlidingFromLeftAnimation2>
-          <h1>LBERG</h1>
+          <h1 className="slidingHeading">LBERG</h1>
         </SlidingFromLeftAnimation2>
     </div>
   );
