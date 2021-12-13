@@ -10,7 +10,6 @@ import {
 const HomePage = () => {
   return (
     <div className="Home">
-      <div>
         <SlidingFromLeftAnimation>
           <h1>AMAND</h1>
         </SlidingFromLeftAnimation>
@@ -20,7 +19,6 @@ const HomePage = () => {
         <SlidingFromLeftAnimation2>
           <h1>LBERG</h1>
         </SlidingFromLeftAnimation2>
-      </div>
     </div>
   );
 };
