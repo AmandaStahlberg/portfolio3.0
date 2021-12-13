@@ -26,7 +26,6 @@ h1 {
 h2 {
     font-family: Menlo;
     font-weight: 100; 
-    color: black;
 }
 
 @media screen and (max-width: 500px) {
