@@ -7,12 +7,14 @@
   height: 2.5rem;
   width: 100%;
   background-color: black;
+  opacity: 80%;
   color: white;
   transition: top 300ms;
   font-family: Menlo;
   font-weight: 100;
   padding-bottom: 1rem;
   padding-top: .5rem;
+  z-index: 100;
 }
 
 .menu > a {
@@ -21,6 +23,7 @@
 }
 .menu > a:hover {
   color: #CF8B7A;
+  cursor: pointer;
 }
 
 .menu:hover {
@@ -33,4 +36,24 @@
 
 .emptyBox {
   width: 20rem;
+}
+
+@media screen and (max-width: 800px) {
+  .menu > a {
+    font-size: .8rem;
+  }
+  .menuArrow {
+    height: 1.5rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .menu > a {
+    font-size: .6rem;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  .emptyBox {
+    display: none;
+  }
 }

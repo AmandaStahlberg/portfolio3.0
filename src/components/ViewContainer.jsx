@@ -7,6 +7,7 @@ import About from './About';
 import Footer from './Footer';
 import Refrences from './Refrences';
 import Contact from './Contact';
+import Skills from './Skills';
 
 const ViewContainer = () => {
   return (
@@ -22,6 +23,9 @@ const ViewContainer = () => {
           </Route>
           <Route path="/refrences">
             <Refrences />
+          </Route>
+          <Route path="/skills">
+            <Skills />
           </Route>
           <Route path="/contact">
             <Contact />

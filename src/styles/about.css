@@ -4,4 +4,15 @@
 
     flex-direction: column;
     padding-left: 1rem;
+    
+}
+
+.about > a {
+    text-decoration: none;
+    color: black;
+}
+
+.about > a:hover {
+    cursor: pointer;
+    color: #CF8B7A;
 }

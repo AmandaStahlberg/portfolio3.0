@@ -3,7 +3,7 @@ import '../styles/footer.css'
 const Footer = () => {
     return (
         <div className="footer">
-            <h4>Amanda Ståhlberg © 2021</h4>
+            <h5>Amanda Ståhlberg © 2021</h5>
         </div>
     )
 }
